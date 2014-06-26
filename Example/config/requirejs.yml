@@ -1,0 +1,15 @@
+paths:
+  JSXTransformer: 'react/JSXTransformer-0.10.0'
+  jsx: 'react/jsx'
+  text: 'react/text'
+  'react.backbone': 'react/react.backbone'
+
+shim:
+   'jquery_ujs':
+    deps: ['jquery']
+   underscore:
+    deps: ['jquery']
+    exports: '_'
+   backbone:
+    deps: ['underscore', 'jquery']
+    exports: 'Backbone'
