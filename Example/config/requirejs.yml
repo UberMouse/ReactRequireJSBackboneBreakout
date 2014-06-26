@@ -3,6 +3,7 @@ paths:
   jsx: 'react/jsx'
   text: 'react/text'
   'react.backbone': 'react/react.backbone'
+  react: 'react/react'
 
 shim:
    'jquery_ujs':

@@ -1,2 +1,2 @@
 define (require)->
-  # bootstrapping code
+  require 'App'

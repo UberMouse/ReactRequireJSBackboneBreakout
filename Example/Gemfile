@@ -8,7 +8,7 @@ gem 'rails', '3.2.18'
 gem 'pg'
 gem 'jbuilder'
 gem 'react-rails', '~> 0.9.0.0'
-gem 'rails-backbone', git: 'git@github.com:codebrew/backbone-rails.git'
+gem 'rails-backbone', git: 'https://github.com/codebrew/backbone-rails.git'
 gem 'yajl-ruby'
 
 # Gems used only for assets and not required

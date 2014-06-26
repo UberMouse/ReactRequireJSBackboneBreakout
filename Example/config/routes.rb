@@ -1,5 +1,6 @@
 Example::Application.routes.draw do
 
+  resources :posts, defaults: {format: 'json'}
   root to: 'index#index'
   # The priority is based upon order of creation:
   # first created -> highest priority.
